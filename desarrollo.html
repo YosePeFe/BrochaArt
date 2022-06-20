@@ -16,7 +16,32 @@
     <script src="https://kit.fontawesome.com/819d38fe29.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body  style="background-color: #FFF;">
+    <!-----------------------NAVBAR----------------------------->
+    <nav class="brocha-navbar">
+        <div class="brocha-logo">
+            <img src="img/Logo_Nav.png" alt="logo" width="120px">
+            <img src="img/Brocha_Art.png" alt="logo" width="130px">
+        </div>
+        <div class="brocha-content">
+            <div class="brocha-social">
+                <a href="" class="brocha-item"><img src="img/icono-ig.png" alt=""></a>
+                <a href="" class="brocha-item"><img src="img/icono-f.png" alt=""></a>
+                <a href="" class="brocha-item"><img src="img/icono-t.png" alt=""></a>
+                <a href="" class="brocha-item"><img src="img/icono-be.png" alt=""></a>
+            </div>
+            <div class="brocha-hambuger" onclick="hamburgerFun()">
+                <img src="./img/hamburgesa.png" alt="">
+            </div>
+            <div class="brocha-list" data-brocha-show="false" id="idBrochaListNav">
+                <a href="./index.html" class="brocha-item active">Inicio</a>
+                <a href="./desarrollo.html" class="brocha-item">Desarrollo</a>
+                <a href="./galeria.html" class="brocha-item">Galería</a>
+                <a href="./contacto.html" class="brocha-item">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
     <div class="container">
         <div class="row">
             <div class="col-4"><img src="img/retrato.jpg" alt="" style="width: 100%;"></div>
