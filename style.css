@@ -1,6 +1,7 @@
 .fa-input {
     font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -20,7 +21,7 @@ li a {
     float: right;
 }
 
-.icon{
+.icon {
     display: block;
     text-align: center;
     margin: 0px 0px 0px 0px;
@@ -28,11 +29,25 @@ li a {
     float: right;
 }
 
-.logo{
+.logo {
     display: block;
     text-align: center;
     text-decoration: none;
     float: left;
 }
 
+#title {
+    font-family: 'Deutsch Gothic', arial;
+}
 
+#img-2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.galeria{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
